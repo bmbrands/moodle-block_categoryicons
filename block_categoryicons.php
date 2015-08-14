@@ -26,7 +26,7 @@ defined('MOODLE_INTERNAL') || die();
 class block_categoryicons extends block_base {
 
     public function init() {
-        $this->title = '';
+        $this->title = get_string('pluginname', 'block_categoryicons');
     }
 
     public function instance_allow_multiple() {
