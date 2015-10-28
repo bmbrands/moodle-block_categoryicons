@@ -72,7 +72,7 @@ class block_categoryicons extends block_base {
 
         $this->content->text = html_writer::start_tag('div', array('class' => 'container-fluid'));
         $this->content->text .= html_writer::start_tag('div', array('class' => 'text-center'));
-        $this->content->text .= html_writer::tag('h2', 'Our Main Categories');
+        $this->content->text .= html_writer::tag('h2', get_string('heading', 'block_categoryicons'));
 
         $this->content->text .= '<hr class="star-primary">';
         $this->content->text .= html_writer::end_tag('div');

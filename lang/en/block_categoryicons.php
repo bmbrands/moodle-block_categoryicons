@@ -27,3 +27,4 @@ $string['categoryicons:addinstance'] = 'Add a new categoryicons Block';
 $string['categoryicons:myaddinstance'] = 'Add a new categoryicons Block to My home';
 $string['pluginname'] = 'Category Icons';
 $string['categoryiconsbackgroundcolor'] = 'Block background color';
+$string['heading'] = 'Our Main Categories';
